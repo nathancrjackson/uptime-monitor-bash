@@ -339,7 +339,7 @@ Main() {
 				#Wait for evals to complete
 				wait
 
-			elif [ "$SCRIPTACTION" = 12]; then
+			elif [ "$SCRIPTACTION" = 12 ]; then
 
 				#Set to separate based on newline
 				IFS=$'\n'
